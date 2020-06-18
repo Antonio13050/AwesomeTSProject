@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { getStatusBarHeight } from'react-native-iphone-x-helper';
 import LinearGradient from 'react-native-linear-gradient';
 
 export const Container = styled(LinearGradient).attrs({
@@ -7,4 +8,5 @@ export const Container = styled(LinearGradient).attrs({
     end: { x: 1, y: 1},
 })`
   flex: 1;
+  padding-top: ${getStatusBarHeight()}px;
 `;
