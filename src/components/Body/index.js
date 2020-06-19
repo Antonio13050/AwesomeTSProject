@@ -3,6 +3,7 @@ import React from 'react';
 import { Image, Container, Button, Input, TextButton, TextMeta, TextQtd } from './styles';
 
 import imagem from '~/assets/img.jpg'
+import { View } from 'react-native';
 
 export default function Body() {
     return (
@@ -10,10 +11,14 @@ export default function Body() {
             <TextMeta>Meta diária</TextMeta>
             <Input />
             <Image source={imagem}/>
-            <TextQtd>1,5L</TextQtd>
-            <Button > 
-                <TextButton>+</TextButton>
-            </Button>
+
+            <View>
+                <TextQtd>1,5L</TextQtd>
+                <Button > 
+                    <TextButton>+</TextButton>
+                </Button>
+            </View>
+            
         </Container>
     );
 }
