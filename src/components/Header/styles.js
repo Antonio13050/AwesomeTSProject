@@ -1,6 +1,8 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
+    align-items: center;
+    backgroundColor: #F0f;
 `;
 
 export const Title = styled.Text`
@@ -9,5 +11,7 @@ export const Title = styled.Text`
     font-weight: bold;
     margin-left: 8px;
     text-align: center;
+    justifyContent: center;
+
 `;
 

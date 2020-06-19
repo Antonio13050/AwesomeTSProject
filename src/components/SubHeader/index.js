@@ -1,12 +1,18 @@
 import React from 'react';
 
-import { Container, TextMeta, Input } from './styles';
+import { Container, LabelMeta, Input, ViewMeta, ViewCompleto, LabelCompleto } from './styles';
 
 export default function SubHeader() {
     return (
         <Container>
-            <TextMeta>Meta diária</TextMeta>
-            <Input />
+            <ViewMeta>
+                <LabelMeta>Meta diária</LabelMeta>
+                <Input />
+            </ViewMeta>
+            <ViewCompleto>
+                <LabelCompleto>Completado</LabelCompleto>
+                <LabelCompleto>1200ml</LabelCompleto>
+            </ViewCompleto>
         </ Container>
     );
 }

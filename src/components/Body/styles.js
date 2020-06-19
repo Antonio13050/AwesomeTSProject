@@ -1,8 +1,8 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-    flex: 1;
     align-items: center;
+    backgroundColor: #566987;
 `;
 
 export const Image = styled.Image`
@@ -10,10 +10,6 @@ export const Image = styled.Image`
     height: 300;
 `;
 
-export const TextQtd = styled.Text`
-    font-size: 30;
-    color: #2f80ed;
-`;
 
 
 
