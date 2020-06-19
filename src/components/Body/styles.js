@@ -5,18 +5,6 @@ export const Container = styled.View`
     align-items: center;
 `;
 
-export const TextMeta = styled.Text`
-    font-size: 20;
-    color: #2f80ed;
-`;
-
-export const Input = styled.TextInput.attrs({
-    placeholder: "ex: 2,5l",
-    keyboardType: "number-pad",
-})`
-    font-size: 20;
-`;
-
 export const Image = styled.Image`
     width: 270;
     height: 300;

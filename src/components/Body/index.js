@@ -8,8 +8,7 @@ import { View } from 'react-native';
 export default function Body() {
     return (
         <Container>
-            <TextMeta>Meta diária</TextMeta>
-            <Input />
+            
             <Image source={imagem}/>
 
             <View>
